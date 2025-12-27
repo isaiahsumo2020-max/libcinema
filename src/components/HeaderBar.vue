@@ -9,9 +9,17 @@
       <img
         src="@/assets/libcinema-logo.png"
         alt="LibCinema Logo"
-        class="h-[3vh] md:h-25 w-[300px] transition-transform duration-200 hover:scale-105"
+        class="hidden md:block h-[3vh] md:h-25 w-[300px] transition-transform duration-200 hover:scale-105"
       />
-    </router-link>
+
+  <!-- Mobile Logo -->
+  <img
+    src="@/assets/libcinema-logo-mobile.png"
+    alt="LibCinema Logo Mobile"
+    class="block h-20 w-60 md:hidden transition-transform duration-200 hover:scale-105"
+  />
+
+</router-link>
 
       <!-- Desktop Menu -->
       <div class="hidden md:flex items-center gap-8 text-white font-medium text-[30px]">
@@ -25,7 +33,7 @@
         <!-- Desktop Auth Buttons -->
         <div class="hidden md:flex gap-3">
           <router-link v-if="!isLoggedIn" to="/signin"
-            class="px-4 py-1 border border-gray-400 rounded text-white hover:bg-red-800 hover:text-white transition">Sign
+            class="px-10 py-1 border border-gray-400 rounded text-white hover:bg-red-800 hover:text-white transition">Sign
             In</router-link>
 
           <router-link v-if="!isLoggedIn" to="/signup"
@@ -33,7 +41,7 @@
           <div v-if="isLoggedIn" class="flex items-center gap-2">
             <span class="text-white">{{ userName }}</span>
             <button @click="handleLogout"
-              class="px-3 py-1 bg-gray-800 rounded hover:bg-gray-700 transition text-sm">Sign Out</button>
+              class="px-6 py-1 bg-gray-800 rounded hover:bg-gray-700 transition text-sm">Sign Out</button>
           </div>
         </div>
 

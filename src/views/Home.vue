@@ -7,7 +7,7 @@
           Trending Movies 🔥
         </h1>
         <p class="text-lg text-gray-200 max-w-xl mx-auto ">
-          Discover what everyone is watching right now on LibFlix Hub.
+          Discover what everyone is watching right now on LibCinema. <span class="ml-1 text-red-800">🇱🇷</span>
         </p>
       </div>
     </section>

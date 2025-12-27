@@ -13,7 +13,7 @@
 
       <!-- Quick Links -->
       <div>
-        <h3 class="text-lg font-semibold text-white mb-3">Quick Links</h3>
+        <h3 class="text-lg font-semibold text-red-800 mb-3">Quick Links</h3>
         <ul class="space-y-2">
           <li><router-link to="/" class="hover:text-orange-400 transition">Home</router-link></li>
           <li><router-link to="/browse" class="hover:text-orange-400 transition">Browse Movies</router-link></li>
@@ -24,23 +24,22 @@
 
       <!-- Browse Categories -->
       <div>
-        <h3 class="text-lg font-semibold text-white mb-3">Categories</h3>
+        <h3 class="text-lg font-semibold text-red-800 mb-3">Categories</h3>
         <ul class="space-y-2">
           <li><router-link to="/browse?genre=action" class="hover:text-orange-400 transition">Action</router-link></li>
           <li><router-link to="/browse?genre=comedy" class="hover:text-orange-400 transition">Comedy</router-link></li>
           <li><router-link to="/browse?genre=drama" class="hover:text-orange-400 transition">Drama</router-link></li>
-          <li><router-link to="/browse?genre=african" class="hover:text-orange-400 transition">African
-              Movies</router-link></li>
+          <li><router-link to="/browse?genre=african" class="hover:text-orange-400 transition">African Movies</router-link></li>
         </ul>
       </div>
 
       <!-- Contact & Social -->
       <div>
-        <h3 class="text-lg font-semibold text-white mb-3">Contact & Social</h3>
+        <h3 class="text-lg font-semibold text-red-800 mb-3">Contact & Social</h3>
 
         <!-- Email -->
         <p class="text-gray-400 text-sm mb-1">
-          📧 <a href="mailto:support@libflixhub.com" class="hover:text-orange-400 transition">support@libcinema.com</a>
+          📧 <a href="mailto:isaiahsumo2020@gmail.com" class="hover:text-orange-400 transition">support@libcinema.com</a>
         </p>
 
         <!-- Phone -->
@@ -50,7 +49,7 @@
 
         <!-- Platform -->
         <p class="text-gray-400 text-sm mb-3">
-          🌐 <a href="https://libcinema.com" target="_blank" class="hover:text-orange-400 transition">Visit LibCinema</a>
+          🌐 <a href="https://libcinema.netlify.app" target="_blank" class="hover:text-orange-400 transition">Visit LibCinema</a>
         </p>
 
         <!-- Social Icons -->
