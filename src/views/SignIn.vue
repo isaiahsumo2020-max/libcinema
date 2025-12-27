@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router'
 const router = useRouter()
 const email = ref('')
 const password = ref('')
-const showPassword = ref(false)   // 👈 new reactive state
+const showPassword = ref(false)   
 
 function signin() {
   const savedUser = JSON.parse(localStorage.getItem('user'))
@@ -32,7 +32,7 @@ function signin() {
     <form @submit.prevent="signin" class="space-y-4">
       <input v-model="email" placeholder="Email" class="input" />
 
-      <!-- Password with Eye -->
+      <!-- Password the with Eye -->
       <div class="relative">
         <input
           v-model="password"
@@ -45,7 +45,7 @@ function signin() {
           @click="showPassword = !showPassword"
           class="absolute right-3 top-2 text-gray-500 hover:text-orange-500"
         >
-          <!-- Eye Open -->
+          <!-- eye should Open -->
           <svg v-if="!showPassword" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -72,5 +72,5 @@ function signin() {
 
 <style scoped>
 .input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 6px }
-.btn-primary { background: #ec8028; color: white; padding: 10px; border-radius: 6px }
+.btn-primary { background: rgb(3, 3, 93); color: white; padding: 10px; border-radius: 6px }
 </style>
