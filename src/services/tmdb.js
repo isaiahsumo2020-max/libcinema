@@ -1,3 +1,9 @@
+export async function fetchPopularMovies(page = 1) {
+  const res = await fetch(`/.netlify/functions/tmdb?path=/movie/popular&page=${page}`)
+  return await res.json()
+}
+
+
 export function getImageUrl(path) {
   if (!path) {
     return 'https://via.placeholder.com/500x750?text=No+Image'
