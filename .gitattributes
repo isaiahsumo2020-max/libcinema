@@ -1,0 +1,22 @@
+# Enforce LF line endings for all text files
+* text=auto eol=lf
+
+# it will explicit rules for common project files
+*.js     text eol=lf
+*.vue    text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.json   text eol=lf
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+
+# this one will Keep images and binaries untouched
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.svg    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
