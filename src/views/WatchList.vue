@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto px-4 pt-28">
-    <h1 class="text-2xl font-bold mb-6">My Watchlist</h1>
+    <h1 class="text-2xl font-bold mb-6">My WatchList</h1>
 
     <div v-if="movies.length === 0">No movies saved.</div>
 
@@ -13,11 +13,11 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import MovieCard from '@/components/MovieCard.vue'
-import { getWatchlist } from '@/services/watchlist'
+import { getWatchList } from '@/services/watchList'
 
 const movies = ref([])
 
 onMounted(() => {
-  movies.value = getWatchlist()
+  movies.value = getWatchList()
 })
 </script>
