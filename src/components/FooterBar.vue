@@ -44,7 +44,7 @@
 
         <!-- Phone -->
         <p class="text-gray-400 text-sm mb-1">
-          📱 <a href="tel:https://wa.me/message/KSGR7ZMWDQTYI1" class="hover:text-orange-400 transition">+231 776 750 865</a>
+          📱 <a href="https://wa.me/message/KSGR7ZMWDQTYI1" class="hover:text-orange-400 transition">+231 776 750 865</a>
         </p>
 
         <!-- Platform -->
