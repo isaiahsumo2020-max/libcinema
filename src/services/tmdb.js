@@ -1,7 +1,3 @@
-const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
-const BASE_URL = import.meta.env.VITE_TMDB_BASE_URL || 'https://api.themoviedb.org/3'
-const IMAGE_BASE = import.meta.env.VITE_TMDB_IMAGE_BASE || 'https://image.tmdb.org/t/p/w500'
-
 export function getImageUrl(path) {
   if (!path) {
     return 'https://via.placeholder.com/500x750?text=No+Image'
