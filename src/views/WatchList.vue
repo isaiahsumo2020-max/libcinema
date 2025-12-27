@@ -13,7 +13,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import MovieCard from '@/components/MovieCard.vue'
-import { getWatchList } from '@/services/watchList'
+import { getWatchList } from '@/services/WatchList'
 
 const movies = ref([])
 
